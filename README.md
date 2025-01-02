@@ -71,5 +71,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact 📬
 
-- **Author**: [Subrata Das](https://github.com/subratadasGit)
-- **Email**: subratadasgit786@gmail.com
+- **Author**: [Subrata Das](https://github.com/subratadasGit) [Rimi Sreemany](https://github.com/rs2103) 
+- **Email**: subratadasgit786@gmail.com , rimisreemany21@gmail.com 
