@@ -1,70 +1,75 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Visual Question Answering (VQA) 🌐🤖
 
-## Available Scripts
+This project implements a **Visual Question Answering** system using deep learning techniques. It allows users to ask questions about images, and the model will provide answers based on the visual content in the image.
 
-In the project directory, you can run:
+## Table of Contents 📑
 
-### `npm start`
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Model Architecture](#model-architecture)
+- [License](#license)
+- [Contact](#contact)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Introduction 📸❓
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Visual Question Answering (VQA) combines the fields of **Computer Vision** and **Natural Language Processing** to allow a system to answer questions about the content of images. This project utilizes state-of-the-art deep learning models to process both images and text for accurate answers.
 
-### `npm test`
+## Installation ⚙️
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites 📦
 
-### `npm run build`
+Ensure that you have the following installed:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Python 3.7 or higher
+- pip (Python package installer)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Setup Instructions 🛠️
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone this repository:
 
-### `npm run eject`
+    ```bash
+    git clone https://github.com/subratadasGit/Visual_Question_Answering.git
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Navigate to the project directory:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    cd Visual_Question_Answering
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Install the required dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-## Learn More
+## Usage 🚀
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To run the model:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Place your image in the `images/` directory.
+2. Run the VQA script:
 
-### Code Splitting
+    ```bash
+    python vqa.py --image path_to_image --question "Your question here"
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. The model will output an answer based on the image and question provided.
 
-### Analyzing the Bundle Size
+## Model Architecture 🧠💻
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The Visual Question Answering model combines **Convolutional Neural Networks (CNNs)** for image feature extraction and **Recurrent Neural Networks (RNNs)** for processing the textual input (questions). 
 
-### Making a Progressive Web App
+- **CNN**: Extracts features from the image.
+- **RNN**: Processes the question and provides an answer based on the extracted features.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License 📝
 
-### Advanced Configuration
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contact 📬
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Author**: [Subrata Das](https://github.com/subratadasGit)
+- **Email**: subratadasgit786@gmail.com
