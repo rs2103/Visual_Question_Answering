@@ -1,7 +1,7 @@
 
 # Visual Question Answering (VQA) 🌐🤖
 
-This project implements a **Visual Question Answering** system using deep learning techniques. It allows users to ask questions about images, and the model will provide answers based on the visual content in the image.
+This project implements a **Visual Question Answering** system using deep learning techniques in **JavaScript**. The system allows users to ask questions about images, and the model will provide answers based on the visual content in the image.
 
 ## Table of Contents 📑
 
@@ -22,8 +22,8 @@ Visual Question Answering (VQA) combines the fields of **Computer Vision** and *
 
 Ensure that you have the following installed:
 
-- Python 3.7 or higher
-- pip (Python package installer)
+- Node.js (Version 14 or higher)
+- npm (Node package manager)
 
 ### Setup Instructions 🛠️
 
@@ -42,7 +42,7 @@ Ensure that you have the following installed:
 3. Install the required dependencies:
 
     ```bash
-    pip install -r requirements.txt
+    npm install
     ```
 
 ## Usage 🚀
@@ -53,7 +53,7 @@ To run the model:
 2. Run the VQA script:
 
     ```bash
-    python vqa.py --image path_to_image --question "Your question here"
+    node vqa.js --image path_to_image --question "Your question here"
     ```
 
 3. The model will output an answer based on the image and question provided.
